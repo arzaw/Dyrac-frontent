@@ -4,13 +4,11 @@
     font-family: 'Roboto', sans-serif;
 
 }
-
 .header{
     height: 100vh;
     width: 100%;
     background: linear-gradient(#3b26a9,  #4aa4e2) ;
 }
-
 nav{
     margin-left: 3cm;
     margin-right: 3cm;
@@ -19,23 +17,19 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
 nav img{
     width: 150px;
 }
-
 .nav-links{
     flex: 1;
     text-align: right;
 }
-
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-
 .nav-links ul li a{
     color: white;
     text-decoration: none;
@@ -54,7 +48,6 @@ nav img{
     width: 100px;
     height: 50px;
 }
-
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -64,21 +57,17 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
-
 .nav-links ul li:hover:after{
     width: 100%;
 }
-
 .dyrac{
     margin-left: 6cm;
     margin-right: 6cm ;
     margin-top: 1cm;
 }
-
 .dyrac img{
     width: 93%;
 }
-
 h3{
     color:white;
     font-size: 2rem;
@@ -89,19 +78,16 @@ h1{
     font-weight: bold;
     line-height: 3rem;
 }
-
 .intro{
     margin-left: 20px ;
     margin-top:20px;
 }
-
 .intro p{
     color: white;
     font-size: 1.4rem;
     line-height: 1.9rem;
     font-weight: bolder;
 }
-
 div.relative1 {
     position: relative;
     width: 700px;
@@ -109,7 +95,6 @@ div.relative1 {
     border: none;
     margin-top: 0.8cm;
 } 
-
 div.absolute {
     position: absolute;
     top: 20px;
@@ -119,7 +104,6 @@ div.absolute {
     border: 1px solid white;
     border-radius: 15px ;
 }
-
 div.abs1 {
     position: absolute;
     top: 0px;
@@ -130,7 +114,6 @@ div.abs1 {
     background: white;
     border-radius: 10px ;
 }
-
 div.abs2 {
     position: absolute;
     top: 0px;
@@ -141,7 +124,6 @@ div.abs2 {
     background: white;
     border-radius: 10px ;
 }
-
 div.abs3 {
     position: absolute;
     top: 0px;
@@ -151,4 +133,22 @@ div.abs3 {
     border: 3px solid white;
     background: white;
     border-radius: 10px ;
+}
+
+div.abs {
+    position: absolute;
+    top: 120px;
+    left: 25px ;
+    border: none;
+}
+.icon{
+    margin: auto;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 1.1rem;
+    color: purple;
+    font-weight: bolder;
+}
+.icon span{
+    margin-right: 5px;
 }
