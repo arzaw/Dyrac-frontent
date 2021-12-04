@@ -5,9 +5,14 @@
 
 }
 .header{
-    height: 100vh;
+    height:fit-content;
     width: 100%;
-    background: linear-gradient(#3b26a9,  #4aa4e2) ;
+    background: url(../assets/semi-top.svg) no-repeat ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
 }
 nav{
     margin-left: 3cm;
@@ -151,4 +156,40 @@ div.abs {
 }
 .icon span{
     margin-right: 5px;
+}
+
+div.career{
+    width: 400px;
+    height: 300px;
+    background: white;
+    margin-top: 0.8cm;
+    margin-left: 2cm;
+    border-radius: 15px;
+}
+
+div.market{
+    width: 400px;
+    height: 300px;
+    background: white;
+    margin-top: 0.8cm;
+    margin-left: 5cm;
+    border-radius: 15px;
+}
+
+div.career-content-head{
+    text-align: center;
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.career-content-head span{
+    margin-left: 20px;
+}
+
+div.career-content{
+    margin: 1cm 1cm 1cm 1cm;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
