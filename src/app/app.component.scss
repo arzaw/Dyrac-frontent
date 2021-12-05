@@ -290,10 +290,9 @@ div.instructor-desig{
 }
 
 div.rel-flow{
-    height: fit-content;
+    height: 23cm;
     width: 50vw;
     position:relative;
-    border: 3px solid purple;
     margin-left: auto;
     margin-right: auto;
 }
@@ -307,8 +306,13 @@ div.num-1{
     margin-left: auto;
     margin-right: auto;
     height: 1cm;
-    width: 1cm;
+    width: 2cm;
     z-index: 1;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1cm;
+    border-radius: 5px;
 }
 
 div.box-1{
@@ -320,12 +324,22 @@ div.box-1{
     margin-right: auto;
     height: 3cm;
     width: 12cm;
-    border: 1.5px solid  rgb(154, 49, 252);
+    border: 1.5px solid #a8a8a8;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-
+div.line-1{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 4.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 5px;
+    background: #3f51b5;
+}
 div.num-2{
     background: linear-gradient(#001f54,#19dac5);
     position: absolute;
@@ -335,8 +349,13 @@ div.num-2{
     margin-left: auto;
     margin-right: auto;
     height: 1cm;
-    width: 1cm;
+    width: 2cm;
     z-index: 1;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1cm;
+    border-radius: 5px;
 }
 
 div.box-2{
@@ -348,11 +367,21 @@ div.box-2{
     margin-right: auto;
     height: 3cm;
     width: 12cm;
-    border: 1.5px solid  rgb(154, 49, 252);
+    border: 1.5px solid #a8a8a8;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-
+div.line-2{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 10.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 5px;
+    background: #3f51b5;
+}
 
 div.num-3{
     background: linear-gradient(#001f54,#19dac5);
@@ -363,8 +392,13 @@ div.num-3{
     margin-left: auto;
     margin-right: auto;
     height: 1cm;
-    width: 1cm;
+    width: 2cm;
     z-index: 1;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1cm;
+    border-radius: 5px;
 }
 
 div.box-3{
@@ -376,11 +410,21 @@ div.box-3{
     margin-right: auto;
     height: 3cm;
     width: 12cm;
-    border: 1.5px solid  rgb(154, 49, 252);
+    border: 1.5px solid  #a8a8a8;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-
+div.line-3{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 16.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 5px;
+    background: #3f51b5;
+}
 
 div.num-4{
     background: linear-gradient(#001f54,#19dac5);
@@ -391,8 +435,13 @@ div.num-4{
     margin-left: auto;
     margin-right: auto;
     height: 1cm;
-    width: 1cm;
+    width: 2cm;
     z-index: 1;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1cm;
+    border-radius: 5px;
 }
 
 div.box-4{
@@ -404,7 +453,48 @@ div.box-4{
     margin-right: auto;
     height: 3cm;
     width: 12cm;
-    border: 1.5px solid  rgb(154, 49, 252);
+    border: 1.5px solid  #a8a8a8;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+div.flow{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.7cm;
+}
+
+div.time{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #0E90A0;
+}
+
+.content-detail{
+    width: 100%;
+    height: fit-content;
+    background: #e5e5e5;
+}
+
+.content-detail-head{
+    //position: relative;
+    color:#3F51B5;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-left: 5cm;
+    margin-top: 2cm;
+   // top: 2cm;
+}
+
+.detail-point{
+    vertical-align: top;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 5cm;
+    margin-top: 1cm;
+    margin-right: 3cm;
+    line-height: 1.1rem;
 }
