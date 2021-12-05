@@ -13,6 +13,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-color: #e5e5e5 ;
+
 }
 nav{
     margin-left: 3cm;
@@ -242,4 +243,168 @@ div.learn-content{
 
 ul{
     list-style-image: url('../assets/check.png');
+}
+
+div.instructor-detail{
+    margin-bottom: 0.5cm;
+}
+div.instructor-heading{
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1cm 1cm 1cm 1cm;
+}
+
+.instructor-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 1cm;
+}
+
+div.instructor-name{
+    margin-left: 1cm;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+div.instructor-desig{
+    margin-left: 1cm;
+    font-size: 0.9rem;
+    color: rgb(179, 3, 179);
+}
+
+
+.learning-path{
+    height: fit-content;
+    width: 100%;
+    background: white;
+}
+
+.l-path-head{
+    color: rgb(165, 4, 165);
+    text-align: center;
+    margin-top: 1cm;
+    font-weight: 500;
+}
+
+div.rel-flow{
+    height: fit-content;
+    width: 50vw;
+    position:relative;
+    border: 3px solid purple;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.num-1{
+    background: linear-gradient(#001f54,#19dac5);
+    position: absolute;
+    left:0;
+    right:0;
+    top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1cm;
+    width: 1cm;
+    z-index: 1;
+}
+
+div.box-1{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 1.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 12cm;
+    border: 1.5px solid  rgb(154, 49, 252);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+div.num-2{
+    background: linear-gradient(#001f54,#19dac5);
+    position: absolute;
+    left:0;
+    right:0;
+    top: 7cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1cm;
+    width: 1cm;
+    z-index: 1;
+}
+
+div.box-2{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 7.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 12cm;
+    border: 1.5px solid  rgb(154, 49, 252);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+div.num-3{
+    background: linear-gradient(#001f54,#19dac5);
+    position: absolute;
+    left:0;
+    right:0;
+    top: 13cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1cm;
+    width: 1cm;
+    z-index: 1;
+}
+
+div.box-3{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 13.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 12cm;
+    border: 1.5px solid  rgb(154, 49, 252);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+div.num-4{
+    background: linear-gradient(#001f54,#19dac5);
+    position: absolute;
+    left:0;
+    right:0;
+    top: 19cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1cm;
+    width: 1cm;
+    z-index: 1;
+}
+
+div.box-4{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 19.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3cm;
+    width: 12cm;
+    border: 1.5px solid  rgb(154, 49, 252);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
