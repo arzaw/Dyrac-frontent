@@ -520,3 +520,67 @@ div.copy{
     margin-top: 2.5cm;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 480px){
+    div.relative1{
+        display: none;
+    }
+
+    *{
+        width: 100%;
+    }
+    .header{
+        width: 100vw;
+    }
+    
+    nav{
+        margin-left: 0cm;
+        margin-right: 0cm;
+    }
+
+    nav img{
+        width: 80px;
+    }
+    .nav-links ul button a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .button{
+        background: #4aa4e2;
+        border-width: 0ch;
+        width: 70px;
+        height: 30px;
+    }
+    .dyrac{
+        margin-left: auto;
+        margin-right: auto ;
+        margin-top: 1cm;
+    }
+    div.avtar{
+        text-align: center;
+    }
+    h3{
+        color:white;
+        font-size: 1.5rem;
+    }
+    h1{
+        color: white;
+        font-size: 2rem;
+        line-height: 2.1rem;
+        font-weight: 500;
+    }
+    div.intro{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5cm;
+        padding-right: 0.5cm;
+    }
+    .intro p{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+}
