@@ -1,9 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-
-}
+    font-family: 'Roboto', sans-serif;}
 .header{
     height:fit-content;
     width: 100%;
@@ -12,9 +10,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-color: #e5e5e5 ;
-
-}
+    background-color: #e5e5e5 ;}
 nav{
     margin-left: 3cm;
     margin-right: 3cm;
@@ -24,36 +20,30 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
-}
+    width: 150px;}
 .nav-links{
     flex: 1;
-    text-align: right;
-}
+    text-align: right;}
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
-}
+    position: relative;}
 .nav-links ul li a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 1000;
-}
+    font-weight: 1000;}
 .nav-links ul button a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 1000;
-}
+    font-weight: 1000;}
 .button{
     background: #4aa4e2;
     border-width: 0ch;
     width: 100px;
-    height: 50px;
-}
+    height: 50px;}
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -61,46 +51,37 @@ nav img{
     background: red;
     display: block;
     margin: auto;
-    transition: 0.5s;
-}
+    transition: 0.5s;}
 .nav-links ul li:hover:after{
-    width: 100%;
-}
+    width: 100%;}
 .dyrac{
     margin-left: 6cm;
     margin-right: 6cm ;
-    margin-top: 1cm;
-}
+    margin-top: 1cm;}
 .dyrac img{
-    width: 93%;
-}
+    width: 93%;}
 h3{
     color:white;
-    font-size: 2rem;
-}
+    font-size: 2rem;}
 h1{
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    line-height: 3rem;
-}
+    line-height: 3rem;}
 .intro{
     margin-left: 20px ;
-    margin-top:20px;
-}
+    margin-top:20px;}
 .intro p{
     color: white;
     font-size: 1.4rem;
     line-height: 1.9rem;
-    font-weight: bolder;
-}
+    font-weight: bolder;}
 div.relative1 {
     position: relative;
     width: 700px;
     height: 150px;
     border: none;
-    margin-top: 0.8cm;
-} 
+    margin-top: 0.8cm;} 
 div.absolute {
     position: absolute;
     top: 20px;
@@ -108,8 +89,7 @@ div.absolute {
     width: 585px;
     height: 110px;
     border: 1px solid white;
-    border-radius: 15px ;
-}
+    border-radius: 15px ;}
 div.abs1 {
     position: absolute;
     top: 0px;
@@ -118,8 +98,7 @@ div.abs1 {
     height: 40px;
     border: 3px solid white;
     background: white;
-    border-radius: 10px ;
-}
+    border-radius: 10px ;}
 div.abs2 {
     position: absolute;
     top: 0px;
@@ -128,8 +107,7 @@ div.abs2 {
     height: 40px;
     border: 3px solid white;
     background: white;
-    border-radius: 10px ;
-}
+    border-radius: 10px ;}
 div.abs3 {
     position: absolute;
     top: 0px;
@@ -138,87 +116,69 @@ div.abs3 {
     height: 40px;
     border: 3px solid white;
     background: white;
-    border-radius: 10px ;
-}
-
+    border-radius: 10px ;}
 div.abs {
     position: absolute;
     top: 120px;
     left: 25px ;
-    border: none;
-}
+    border: none;}
 .icon{
     margin: auto;
     text-align: center;
     margin-top: 7px;
     font-size: 1.1rem;
     color: purple;
-    font-weight: bolder;
-}
+    font-weight: bolder;}
 .icon span{
-    margin-right: 5px;
-}
-
+    margin-right: 5px;}
 div.career{
     width: 400px;
     height: 300px;
     background: white;
     margin-top: 0.8cm;
     margin-left: 2cm;
-    border-radius: 15px;
-}
-
+    border-radius: 15px;}
 div.market{
     width: 400px;
     height: 300px;
     background: white;
     margin-top: 0.8cm;
     margin-left: 5cm;
-    border-radius: 15px;
-}
-
+    border-radius: 15px;}
 div.career-content-head{
     text-align: center;
     color: purple;
     font-size: 1.5rem;
     font-weight: bolder;
-    margin-top: 30px;
-}
-
+    margin-top: 30px;}
 .career-content-head span{
-    margin-left: 20px;
-}
-
+    margin-left: 20px;}
 div.career-content{
     margin: 1cm 1cm 1cm 1cm;
     font-size: 1.1rem;
     font-weight: 400;
+    color: black;
+    text-align: left;
 }
-
 div.featured{
     position: relative;
     width: 50%;
     height: fit-content;
     background: white;
     margin-top: 0.8cm;
-    border-radius: 15px;
-}
-
+    border-radius: 15px;}
 div.instructor{
     width: 20%;
     height: fit-content;
     background: white;
     margin-top: 0.8cm;
     margin-left: 1cm;
-    border-radius: 15px;
-}
-
+    border-radius: 15px;}
 div.learn{
     color: purple;
     font-size: 2rem;
     font-weight: bolder;
-    margin: 1cm 1cm 1cm 2cm;
-}
+    margin: 1cm 1cm 1cm 2cm;}
 
 div.featured-heading{
     position: absolute;
@@ -231,15 +191,16 @@ div.featured-heading{
     text-align: center;
     font-size: 1.5rem;
     color: white;
-    line-height: 2.5rem;
+    line-height: 2.5rem;}
+.magic{
+    display: none;
 }
-
 div.learn-content{
-    margin: 1cm 1cm 1cm 2cm;
+    margin: 0.5cm 1cm 1cm 0cm;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 2rem;
-}
+    color: black;}
 
 ul{
     list-style-image: url('../assets/check.png');
@@ -523,64 +484,136 @@ div.copy{
 
 @media screen and (max-width: 480px){
     div.relative1{
-        display: none;
-    }
-
+        display: none;}
     *{
-        width: 100%;
-    }
+        width: 100%;}
     .header{
-        width: 100vw;
-    }
+        width: 100vw;}
     
     nav{
         margin-left: 0cm;
-        margin-right: 0cm;
-    }
+        margin-right: 0cm;}
 
     nav img{
-        width: 80px;
-    }
+        width: 80px;}
     .nav-links ul button a{
         color: white;
         text-decoration: none;
         font-size: 14px;
-        font-weight: 700;
-    }
+        font-weight: 700;}
     .button{
         background: #4aa4e2;
         border-width: 0ch;
         width: 70px;
-        height: 30px;
-    }
+        height: 30px;}
     .dyrac{
         margin-left: auto;
         margin-right: auto ;
-        margin-top: 1cm;
-    }
+        margin-top: 1cm;}
     div.avtar{
-        text-align: center;
-    }
+        text-align: center;}
     h3{
         color:white;
-        font-size: 1.5rem;
-    }
+        font-size: 1.5rem;}
     h1{
         color: white;
         font-size: 2rem;
         line-height: 2.1rem;
-        font-weight: 500;
-    }
+        font-weight: 500;}
     div.intro{
         margin-left: auto;
         margin-right: auto;
         padding-left: 0.5cm;
-        padding-right: 0.5cm;
-    }
+        padding-right: 0.5cm;}
     .intro p{
         color: white;
         font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.3rem;
+        line-height: 1.3rem;}
+    div.career{
+        width: 380px;
+        height: 350px;
+        background: white;
+        margin-top: 0.8cm;
+        margin-left: 0.5cm;
+        margin-right: 0.5cm;
+        border-radius: 15px;}
+    div.market{
+        width: 380px;
+        height: 350px;
+        background: white;
+        margin-top: 0.8cm;
+        margin-left: 0.5cm;
+        margin-right: 0.5cm;
+        border-radius: 15px;}
+
+    div.career-content{
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0.5cm;
+        padding-left: 0.7cm;
+        font-size: 1.1rem;
+        font-weight: 400;}
+    .magic{
+        display:flex;
+    }
+    div.instructor{
+        margin-left: 0.5cm;
+        width: 350px;
+        text-align: center;
+    }
+    div.instructor-detail{
+        margin-bottom: 0.5cm;
+    }
+    div.instructor-heading{
+        margin: 1cm 0cm 1cm 0cm;
+    }
+
+    .instructor-img img{
+        margin-left: 0cm;
+    }
+
+    div.instructor-name{
+        margin-left: 0cm;
+    }
+
+    div.instructor-desig{
+        margin-left: 0cm;
+    }
+    div.featured{
+        position: relative;
+        width: 380px;
+        height: fit-content;
+        margin-top: 0.8cm;
+        border-radius: 15px;}
+    
+    div.learn{
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: 2cm;
+        margin-right: 0cm;
+    }
+    
+    div.featured-heading{
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.learn-content{
+        width: 300px ;}
+
+    .learn-content{
+        width: 300px;
+    }
+    .content-detail-head{
+        margin-left: 0.5cm;
+    }
+    
+    .detail-point{
+        margin-left: 1.2cm;
+        margin-right: 3.3cm;
+        width: 350px;
     }
 }
