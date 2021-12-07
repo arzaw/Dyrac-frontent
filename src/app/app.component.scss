@@ -126,7 +126,7 @@ div.abs {
     margin: auto;
     text-align: center;
     margin-top: 7px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: purple;
     font-weight: bolder;}
 .icon span{
@@ -204,6 +204,7 @@ div.learn-content{
 
 ul{
     list-style-image: url('../assets/check.png');
+    list-style-position: floor($number: 0);
 }
 
 div.instructor-detail{
@@ -545,7 +546,7 @@ div.footer-style{
     div.instructor{
         margin-left: auto;
         margin-right: auto;
-        width: fit-content;
+        width: 300px;
         text-align: center;
     }
 
