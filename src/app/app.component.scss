@@ -125,7 +125,7 @@ div.abs {
 .icon{
     margin: auto;
     text-align: center;
-    margin-top: 7px;
+    margin-top: auto;
     font-size: 1.3rem;
     color: purple;
     font-weight: bolder;}
@@ -133,14 +133,14 @@ div.abs {
     margin-right: 5px;}
 div.career{
     width: 400px;
-    height: 300px;
+    height: fit-content;
     background: white;
     margin-top: 0.8cm;
     margin-left: 2cm;
     border-radius: 15px;}
 div.market{
     width: 400px;
-    height: 300px;
+    height: fit-content; 
     background: white;
     margin-top: 0.8cm;
     margin-left: 5cm;
@@ -460,6 +460,9 @@ div.time{
     line-height: 1.1rem;
 }
 
+.footer{
+    background-color: #e5e5e5;
+}
 div.footer-style{
     text-align: center;
 }
@@ -517,7 +520,7 @@ div.footer-style{
         line-height: 1.3rem;}
     div.career{
         width: fit-content;
-        height: 350px;
+        height: fit-content;
         background: white;
         margin-top: 0.8cm;
         margin-left: 0.5cm;
@@ -525,7 +528,7 @@ div.footer-style{
         border-radius: 15px;}
     div.market{
         width: fit-content;
-        height: 350px;
+        height: fit-content;
         background: white;
         margin-top: 0.8cm;
         margin-left: 0.5cm;

@@ -4,7 +4,7 @@
       <div class="nav-links">
         <ul>
          <!-- <li><a href="#">HOME</a></li>-->
-          <button class="rounded-pill button"><a href="#">JOIN US</a></button>
+          <button class="rounded-pill button"><a [routerLink]="['/register']" routerLinkActive="router-link-active" >Register</a></button>
   
         </ul>
       </div>
@@ -317,7 +317,44 @@
     </div>
     <br><br><br>
   </section>
+
+  <section class="contact-us">
+    <div class="queries-form">
+      <form>
+        
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+       
+        <br>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email"  required>
+        </div>
+       
+        <br>
   
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" required>
+        </div>
+       
+        <br>
+  
+        <div class="form-group">
+          <label for="Queries">Your Query</label>
+          <textarea class="form-control" id="query" rows="3" required></textarea>
+        </div>
+  
+        <br>
+        
+        <button class="btn btn-primary">Ask Dyrac</button>
+      </form>
+    </div>
+  </section>
+
   <section class="footer">
     <div class="footer-style">
       <div class="f-img">
